@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editText;
     private View addNoteButton;
 
+	
     private RxDao<Note, Long> noteDao;
     private RxQuery<Note> notesQuery;
     private NotesAdapter notesAdapter;
